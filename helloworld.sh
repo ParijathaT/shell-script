@@ -1,5 +1,3 @@
 #!/bin/bash/
-
-#this line is commented
-
-echo "hello world!"
+echo "hello"
+echo "welcome to shell script"
