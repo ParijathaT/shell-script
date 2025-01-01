@@ -10,4 +10,3 @@ echo "Given number is lessthan 100"
 fi
 if [$NUMBER -lt 100]
 echo "Given number is equals to 100"
-fi
