@@ -1,0 +1,11 @@
+#!/bin/bash
+NUMBER=$1
+
+# -gt -lt -ne -eq -ne -ge -le 
+if [$NUMBER -gt 100]
+echo "Given number is greater than 100"
+else if[$NUMBER -lt 100]
+echo "Given number is lessthan 100"
+else 
+echo "Given number is equals to 100"
+fi
