@@ -18,17 +18,9 @@ VALIDATE(){
         exit 1
     else
         echo -e "$2 ...$G SUCCESS $N"
-echo "script started executing at: $TIMESTAMP" &>>$LOG_FILE_NAME
-
-VALIDATE(){
-    if [ $1 -ne 0 ]
-    then
-        echo -e "$2 ... $R FAILURE $N"
-        exit 1
-    else
-        echo -e "$2 ...$G SUCCESS $N"
     fi
 }
+echo "script started executing at: $TIMESTAMP" &>>$LOG_FILE_NAME
 
 if [ $USERID -ne 0 ]
 then
