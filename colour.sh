@@ -29,7 +29,7 @@ then # not installed
     dnf install mysql -y
     VALIDATE $? "Installing MySQL"
 else
-    echo "MySQL is already ...$Y INSTALLED"
+    echo -e "MySQL is already ...$Y INSTALLED"
 fi
 
 
@@ -40,5 +40,5 @@ then
     dnf install git -y
     VALIDATE $? "Installing Git"
 else
-    echo "Git is already ... INSTALLED"
+    echo -e "Git is already ...$Y INSTALLED"
 fi
