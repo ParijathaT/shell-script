@@ -8,7 +8,7 @@ N="\e[0m"
 
 LOG_FOLDER="/var/log/shellscript_log"
 TIMESTAMP="$(date +%y-%m-%d-%H-%M-%S)"
-LOG_FILE="$(echo $0 |cut -d "-f1")"
+LOG_FILE="$(echo $0 | cut -d ". " -f1)"
 LOG_FILE_NAME="$LOG_FOLDER/$LOG_FILE-$TIMESTAMP.log"
 
 VALIDATE(){
