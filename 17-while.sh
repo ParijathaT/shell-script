@@ -2,4 +2,4 @@
 while read -r line
 do 
 echo $line 
-done < array.sh
+done < 07-array.sh
