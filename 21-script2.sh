@@ -2,4 +2,4 @@
 MSG="SCRIPT2"
 A="45"
 echo "Hello from :$MSG"
-echo "SGreating :$GREET"
+echo "Greating :$GREET"
